@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le roi et ses chaussettes dégueulasses</title>
+    <p class="subtitle">Une histoire interactive par Roxane Daguet et Consuelo Gournay</p>
+    <link rel="stylesheet" href="CSS\style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Le roi et ses chaussettes dégueulasses</h1>
+        
+        </header>
+
+        <div class="video-container">
+            <video controls>
+                <source src="CSS/IMG_5846.MOV" type="video/mp4">
+            </video>
+        </div>
+        <main>
+            <section class="introduction">
+                <p>Pour cet exercice de narration, nous avons choisi de conter un texte écrit par Consuelo qui raconte l’histoire d’un roi et de ses chaussettes qui puent. Nous avons voulu jouer une sorte de mini pièce de théâtre, avec une “scène” (l’espace horizontal capté par la webcam), et avons représenté les personnages par des éléments placés à la fois sur l’écran d’ordinateur par lequel se fait le visionnage (on a imprimé les ministres, et on les a scotchés sur le côté droit de l’écran: l’idée est de les mettre en avant, car ils sont les narrateurs de l’histoire), devant la caméra sur la scène (les chaussettes découpées dans du papier que Roxane déplace pendant le récit) et enfin via isadora (les mouches qui suivent les chaussettes).</p>
+                <p>Pendant la narration, Roxane déclenche les diverses interactions: des sons qui accompagnent pour annoncer le caractère des personnages, comme le bruit des mouches qui suivent la chaussette et qui augmente lorsqu’on la rapproche de la caméra, des sons de dégoût des ministres lorsque la chaussette se rapproche du bord droit de la scène, et une lumière rouge qui s’allume pour signifier la fin tragique du roi. Cet effet ‘spectacle’ est exacerbé par l’idée de double plan, avec les éléments placés physiquement sur l’écran et le feedback de la caméra. Ci-dessous, vous trouverez le texte et le patch isadora.</p>
+            </section>
+            <section class="story">
+                <h2>Il était une fois un roi...</h2>
+                <p>Il était une fois un roi qui était atrocement mauvais et cruel. Ce qui le démarquait des autres rois méchants et cruels, c’était une vieille paire de chaussettes qu’il portait tous les jours. Elles étaient infectes, ces chaussettes: trouées, puantes et noires de crasses sous le pied. Son entourage était horrifié, bien sûr, en particulier devant les ambassadeur.ices de pays étrangers et autre noblesse protocolaire. Ah, mais le roi affectionnait tant sa paire qu’il ne se lavait pas sans, et sortait de la salle de bain créant ainsi sur son chemin une sorte de pédiluve improvisé, dont toutefois personne ne voulait approcher, par peur d’attraper un champignon.</p>
+                <p>Les ministres n’en pouvaient plus, roulant ostensiblement des yeux et soufflant légèrement du nez, lorsque le roi bourru se penchait en arrière sur sa chaise pour poser ses grosses pattes sur la table de réunion. La situation ne pouvait être plus urgente, il en allait du bien être du royaume et de ses sujets! Déjà plus d’un allié était devenu ennemi mortel, une simple conversation à huis clos les faisait sortir à reculons, le regard vitreux, le teint pâle, le rictus sévère… Une fois déjà, le majordome au bord du burn-out lui avait supplié de retirer les atrocités, de les jeter dans les flammes de la cheminée ou au moins de le laisser les laver ne serait-ce qu’une seule fois!... Le roi avait répondu, “j’en perdrai mon fumé”. Le majordome fut retrouvé mort le soir même dans d’étranges circonstances… Voilà que ces chaussettes tuent, maintenant…Ce fut la goutte de trop pour nos pauvres fonctionnaires, qui quittèrent les lieux sur-le-champ, furieux et marmonnant entre eux ‘psppspspspps… chaussettes… psssssppsppss…qui tuent……pspspsppspsp……qui puent…..pspsppsppspss…et merde!”</p>
+                <p>Les ministres se retrouvèrent dans le plus grand des secrets quelques heures plus tard, pour discuter des solutions concrètes. On décida d'engager un assassin, qui fut très mécontent d’apprendre que sa mission concernait les royales chaussettes: lui qui avait l’habitude des acrobaties précises et mortelles, des meurtres spectaculaires avec sorties dramatiques… Il fut convenu qu’on attendrait la nuit, lorsque le roi roupillait profondément, et que l’assassin aurait pour mission de délicatement retirer les mauvaises de leur hôte, puis s’éclipserait pour s’en débarrasser une fois pour toute. Le moment venu, l’assassin fut pris de haut-le-cœur à l’approche de ses victimes: il trouva vraiment trop injuste de se voir refiler le sale boulot, et prit la décision exécutive de couper les pieds du roi, un centimètre et demi au-dessus de l’ourlet. En entendant les hurlements de douleur du roi, l'assassin prit la fuite en laissant tout sur place.</p>
+                <p>On retrouva le roi mort dans son lit le lendemain. Il s’était vidé de son sang, et ses deux pieds gisaient à ses côtés. Deux longues traînées de sang puantes indiquèrent que la mission avait échoué: les chaussettes s’étaient échappées…</p>
+            </section>
+        </main>
+        <div class="image-container">
+            <img src="CSS/Capture d’écran 2024-12-20 à 12.49.27.png" alt="Image 1">
+            <img src="CSS/Capture d’écran 2024-12-20 à 12.49.40.png" alt="Image 2">
+            <img src="CSS/Capture d’écran 2024-12-20 à 12.49.52.png" alt="Image 3">
+        </div>
+
+        <div id="image-modal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modal-image">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>
